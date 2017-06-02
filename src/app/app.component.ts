@@ -34,4 +34,6 @@ export class AppComponent {
         238.99
       )]
   }
+  productWasSelected(product: Product): void { console.log('Product clicked: ', product);
+  }
 }
